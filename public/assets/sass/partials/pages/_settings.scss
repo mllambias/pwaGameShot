@@ -1,0 +1,56 @@
+#settings_page,
+#modal_pause_window {
+    .main, .holder{
+        display: flex;
+        height: 100%;
+        align-items: center;        
+        justify-content: center;
+    }
+    .settings{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        .setting{
+            display: inline-flex;
+            height: 48px;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            svg{
+                width:56px;
+                height:25px;
+            }
+            .active{
+                svg {
+                    rect{
+                        stroke:#32F6D2;
+                    }
+
+                    circle{
+                        fill:#32F6D2;
+                        transform: translate(30px);
+                    }
+                }
+            }   
+
+        }
+    }
+    
+}
+
+
+#modal_pause_window{
+    .holder{
+        flex-direction: column;
+    }
+
+    svg{
+        width:43px;
+        height:25px;
+    }
+    .overlay{
+        opacity: 10%;
+        background-color: #30ECF8;
+        z-index: -2;
+    }
+}

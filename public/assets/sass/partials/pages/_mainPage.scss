@@ -1,0 +1,49 @@
+#main_page {
+    display:flex;
+    flex-direction: column;
+
+    .ui {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .lifes{
+            color:#F262C1;
+            .amount{
+                font-size: 36px;
+            }
+            .icon{
+                font-size: 25px;
+            }
+        }
+        .score{
+            color: #32F6D2;
+            .amount{
+                font-size: 48px;
+            }
+            .icon{
+                font-size: 25px;
+            }
+        }
+        .pause{
+            color:#596466;
+            span{
+                font-size: 35px;
+            }
+        }
+    }
+
+    .game {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    #dyd{
+        font-size: 1.2em;
+        color:red;
+    }
+// Sugerencia de interact.js
+    .Player{
+        touch-action: none;
+    }
+}

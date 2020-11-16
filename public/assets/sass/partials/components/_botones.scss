@@ -1,0 +1,81 @@
+.btnBack{
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 5px #576565 solid;
+    border-radius: 10px;
+    color: #576565;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    display: inline-flex;
+    min-width: 100%;
+    height: 48px;
+    margin-bottom: 25px;
+    //centra el texto en el boton
+    align-items: center;        
+    justify-content: center;
+
+    &:hover{
+        background-color: #576565;
+        color: #fff;
+        border:  5px #fff solid;;
+    }
+
+}
+
+.btprimary{
+    text-decoration: none;
+    background-color: #F262C1;
+    border-radius: 10px;
+    color: #FFF;
+    border: 5px #FFF solid;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    display: inline-flex;
+    min-width: 100%;
+    height: 48px;
+    margin-bottom: 25px;
+    //centra el texto en el boton
+    align-items: center;        
+    justify-content: center;
+
+    &:hover{
+        background-color: #fff;
+        color: #F262C1;
+        border: 5px #F262C1 solid;
+    }
+}
+
+.btn{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;        
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+} 
+
+.btn_primary{
+    color:#fff;
+    background-color: #F262C1;
+    border: 5px #F262C1 solid;
+
+    &:hover{
+        color:#F262C1;
+        background-color: #FFF;
+        border-color: #F262C1;
+    }
+}
+
+.btn_secondary{
+    color:#576565;
+    background-color: #fff;
+    border: 5px #576565 solid;
+
+    &:hover{
+        color:#fff;
+        background-color: #576565;
+        border-color: #576565;
+    }
+}

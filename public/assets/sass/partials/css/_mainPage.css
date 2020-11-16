@@ -1,0 +1,45 @@
+#main_page {
+  display: flex;
+  flex-direction: column;
+}
+#main_page .ui {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main_page .ui .lifes {
+  color: #F262C1;
+}
+#main_page .ui .lifes .amount {
+  font-size: 36px;
+}
+#main_page .ui .lifes .icon {
+  font-size: 25px;
+}
+#main_page .ui .score {
+  color: #32F6D2;
+}
+#main_page .ui .score .amount {
+  font-size: 48px;
+}
+#main_page .ui .score .icon {
+  font-size: 25px;
+}
+#main_page .ui .pause {
+  color: #596466;
+}
+#main_page .ui .pause span {
+  font-size: 35px;
+}
+#main_page .game {
+  flex-basis: 100%;
+  width: 100%;
+}
+#main_page #dyd {
+  font-size: 1.2em;
+  color: red;
+}
+#main_page .Player {
+  touch-action: none;
+}

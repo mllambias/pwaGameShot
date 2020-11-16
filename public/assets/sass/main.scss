@@ -1,0 +1,62 @@
+@import "lib/vars";
+@import "lib/reboot";
+@import "lib/keyframes";
+@import "lib/fontface";
+
+@import "lib/colors";
+@import "lib/typo";
+@import "lib/utils";
+
+@import "partials/layout";
+@import "partials/modals";
+
+@import "partials/pages/menu.scss";
+@import "partials/pages/settings.scss";
+@import "partials/pages/mainPage.scss";
+@import "partials/pages/leaderPage.scss";
+
+@import "partials/components/botones.scss";
+
+
+
+
+// * {
+//     &:not(a) {
+//         border: 1px solid pink;
+//     }
+// }
+
+#settings_page,
+#menu_page,
+#leaderboard_page,
+#modal_pause_window {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    header{
+        width: 100%;
+    }
+
+    .main,
+    .slider,
+    .lboard,
+    .holder{
+        flex-basis: 100%;
+        width: 100%;
+
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+#splash_page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
